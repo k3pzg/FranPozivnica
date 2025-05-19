@@ -9,7 +9,7 @@ const Pozivnica = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setSubmitted(true);
-        console.log({ ime, dolazak, gosti }); // Ovde ćeš kasnije dodati slanje podataka na server
+        console.log({ ime, dolazak, gosti });
     };
 
     if (submitted) {
